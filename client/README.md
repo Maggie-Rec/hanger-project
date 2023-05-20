@@ -19,4 +19,5 @@ Contributing
 
 
 Thank you for choosing Hanger and joining us in the slow fashion movement! Together, we can make a positive impact on the fashion industry and the environment.
+
 Teach Stack: React, Typescript, Tailwind, Ant Design, Koa, Mongoose, MongoDB
