@@ -12,14 +12,11 @@
     "@material-ui/icons": "^4.11.3",
     "@stripe/react-stripe-js": "^2.1.0",
     "@stripe/stripe-js": "^1.52.1",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "@types/styled-components": "^5.1.26",
     "antd": "^5.5.1",
     "axios": "^1.4.0",
-    "react": "^17.0.2",
-    "react-dom": "^16.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-dropzone": "^14.2.3",
     "react-query": "^3.39.3",
     "react-router-dom": "^6.11.0",
@@ -52,6 +49,9 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
     "tailwindcss": "^3.3.1"
   }
 }
