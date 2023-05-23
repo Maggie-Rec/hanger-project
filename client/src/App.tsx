@@ -16,8 +16,8 @@ const App: React.FC = () => {
       {component ? (
       <MainPage
       
-        toggleComponent={toggleComponent} searchText={searchText} setSearchText={setSearchText}
-      />
+          toggleComponent={toggleComponent} searchText={searchText} setSearchText={setSearchText}
+        />
       ) : (
       <Profile
        
