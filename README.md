@@ -22,6 +22,6 @@ Thank you for choosing Hanger and joining us in the slow fashion movement! Toget
 Teach Stack: React, Typescript, Tailwind, Ant Design, Koa, Mongoose, MongoDB
 
 ## Getting started
-run ### npm i on the client and server folder
-run ### npm start on the client folder
-run ### nodemon index.ts on the server folder
+run 'npm i' on the client and server folder
+run 'npm start' on the client folder
+run 'nodemon index.ts' on the server folder
