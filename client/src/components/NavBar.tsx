@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
-import { faCommentDollar } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../images/Hanger.svg';
 import { Button, Drawer, Space } from 'antd';
 import { useState } from 'react';
