@@ -6,7 +6,7 @@ import { AddressInterface } from './interfaces/address';
 import { ItemInterface } from './interfaces/item';
 import { ImageInterface } from './interfaces/image';
 
-const rootURL = 'http://localhost:3020';
+const rootURL = "https://hanger.onrender.com";
 
 type NavigateFunction = (path: string, state?: any) => void;
 
