@@ -12,6 +12,8 @@
     "@material-ui/icons": "^4.11.3",
     "@stripe/react-stripe-js": "^2.1.0",
     "@stripe/stripe-js": "^1.52.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
     "@types/styled-components": "^5.1.26",
     "antd": "^5.4.3",
     "axios": "^1.4.0",
@@ -23,10 +25,7 @@
     "react-scripts": "^5.0.1",
     "styled-components": "^5.3.10",
     "uninstall": "^0.0.0",
-    "web-vitals": "^2.1.4",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -53,9 +52,6 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
     "tailwindcss": "^3.3.1"
   }
 }
