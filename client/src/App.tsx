@@ -1,5 +1,4 @@
 import "./App.css";
-
 import React, { useState } from "react";
 import MainPage from "./components/MainPage";
 import Profile from "./components/Profile";
