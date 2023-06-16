@@ -1,5 +1,5 @@
 import "./App.css";
-import { ThemeProvider } from "@material-tailwind/react";
+
 import React, { useState } from "react";
 import MainPage from "./components/MainPage";
 import Profile from "./components/Profile";
@@ -23,36 +23,34 @@ const App: React.FC = () => {
     setComponent(!component);
   };
   return (
-    <ThemeProvider>
-      <Elements stripe={stripePromise}>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/payment" element={<PaymentForm />} />
-            <Route path="/login" element={<LoginView />} />
-            <Route
-              path="/"
-              element={
-                <>
-                  {component ? (
-                    <MainPage
-                      toggleComponent={toggleComponent}
-                      searchText={searchText}
-                      setSearchText={setSearchText}
-                    />
-                  ) : (
-                    <Profile
-                      toggleComponent={toggleComponent}
-                      setSearchText={setSearchText}
-                    />
-                  )}
-                  ;
-                </>
-              }
-            ></Route>
-          </Routes>
-        </BrowserRouter>
-      </Elements>
-    </ThemeProvider>
+    <Elements stripe={stripePromise}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/payment" element={<PaymentForm />} />
+          <Route path="/login" element={<LoginView />} />
+          <Route
+            path="/"
+            element={
+              <>
+                {component ? (
+                  <MainPage
+                    toggleComponent={toggleComponent}
+                    searchText={searchText}
+                    setSearchText={setSearchText}
+                  />
+                ) : (
+                  <Profile
+                    toggleComponent={toggleComponent}
+                    setSearchText={setSearchText}
+                  />
+                )}
+                ;
+              </>
+            }
+          ></Route>
+        </Routes>
+      </BrowserRouter>
+    </Elements>
   );
 };
 
